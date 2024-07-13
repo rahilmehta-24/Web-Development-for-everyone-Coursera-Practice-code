@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic Form</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+		<label for="name">Name</label>
+		<input type="text" id = "name" name="name" value="Rahil">
+		<br/>
+		<label>Email: <input type="email" id="email" name="email" placeholder="abc@email.com"></label><br/>
+		<label for="birth">Birth</label>
+		<input type="date" id="date" name="date" value="birth"><br/>
+		<input type="submit" value="Click here!">
+		<br/>
+         <label>Password: <input type='password' name = 'pass'></label>
+        
+        Radio Buttons<br/>
+        <label><input type="radio" name="sex" value="male" checked>Male</label>
+
+        <label><input type="radio" name="sex" value="female">Female</label>
+
+        Checkboxes<br/>
+
+        <label> <input type="checkbox" name="contact1" value="Bike">Contact me via email</label>
+
+        <label> <input type="checkbox" name="contact2" value="Bike">Contact me via phone</label>
+    		
+        <label>Number: <input type="number" name="numberInput" min="1" max="5"></label>
+
+        <label>Range: <input type="range" name="rangeInput" min="1" max="10"></label>
+
+         <label>Color: <input type="color" name="colorInput" min="1" max="10"></label>
+
+         <label>Date: <input type="date" name="dateInput"></label>
+
+         <label>URL: <input type="url" name="urlInput"></label>
+
+    		<input type = 'submit' value = "Click Here">
+	</fieldset>
+	</form>
+	<style>
+		form{
+			width: 5%;
+		}
+	</style>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+.hero {
+  color: #fff;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+ .row {
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
+div {
+  background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+}
+ div {
+  background: #466368;
+  background: linear-gradient(to right bottom, #648880, #293f50);
+}
+div {
+  background: #466368;
+  background: radial-gradient(#648880, #293f50);
+}
+div {
+  background: #648880;
+  background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
+}
+div {
+  background: #648880;
+  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Output Windows</title>
+</head>
+<body>
+
+	<!--Document.write->
+	<script>
+		document.write("Hello World");
+	</script>
+	<p>As a test, what happens if you remove the script tag up above?</p>
+	<p>-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*</p>
+
+
+	<!--prompt.html-->
+	<script>
+		var name = prompt("What is your name?");
+	</script>
+	<p>This program just keeps popping up prompts.  It is both useless and annoying, but it shows you how to use prompt.</p>
+	<p>-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*</p>
+
+
+	<!--innerHTML->
+	<h1 id="test2">Tester</h1>
+	<h2 id="test">Tester</h2>
+	<script>
+		document.getElementById('test').innerHTML = "Hello World"
+	</script>
+	<p>What happens if you have two elements with id = "test"?</p>
+	<p>-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*</p>
+
+
+	<!--alert.html->
+	Hi There<br/>
+	<script>
+		alert("Test");
+	</script>
+	<noscript>Your browser doesn't support or has disabled Javascript</noscript>
+	Good-bye
+	<p>-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*</p>
+
+
+	<!--Console-log.html-->
+	<script>
+		console.log("Leave a secret message");
+	</script>
+	<p>What happens if you forget the first set of quotes? <br/> The JavaScript console can help you figure out what is wrong with your code.</p>
+</body>
+</html>
